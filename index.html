@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/af99774edb.js" crossorigin="anonymous"></script>
+    <title>Clone Facebook</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <h1 class="logo">Facebook</h1>
+            <ul>
+                <li><img src="img/notification.png" alt=""></li>
+                <li><img src="img/inbox.png" alt=""></li>
+                <li><img src="img/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="img/search.png" alt="">
+                <input type="text" name="" id="" placeholder="Pesquisar">
+            </div>
+            <div class="nav-user-icon online" onclick="settigsMenuDark()">
+                <img src="img/ALi.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- Menu dark -->
+        <div class="setting-menu">
+
+            <div id="dark-btn" class="">
+                <span></span>
+            </div>
+
+            <div class="setting-menu-content">
+                <div class="user-profile">
+                    <img src="img/capa.jpg" alt="">
+                    <div class="detail">
+                        <p>Ali Azimo</p>
+                        <a href="profile.html">Seu perfil</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="img/feedback.png" alt="">
+                    <div class="detail">
+                        <p>Maias Feedback</p>
+                        <a href="#">Ajude a melhorar no Design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="setting-links">
+                    <img src="img/setting.png" alt="" class="setting-icon">
+                    <a href="#">Ferramentas & Privacidade
+                        <img src="img/arrow.png" width="10px">
+                    </a>
+                </div>
+                <div class="setting-links">
+                    <img src="img/help.png" alt="" class="setting-icon">
+                    <a href="#">Ajuda & Suporte
+                        <img src="img/arrow.png" width="10px">
+                    </a>
+                </div>
+                <div class="setting-links">
+                    <img src="img/display.png" alt="" class="setting-icon">
+                    <a href="#">Acessibilidades & Tela
+                        <img src="img/arrow.png" width="10px">
+                    </a>
+                </div>
+                <div class="setting-links">
+                    <img src="img/logout.png" alt="" class="setting-icon">
+                    <a href="#">Logout
+                        <img src="img/arrow.png" width="10px">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<!-- Profile content -->
+
+
+    <section class="container">
+        <!-- Lado esquerdo -->
+        <div class="left-sidebar">
+            <div class="impor-links">
+                <a href="#"><img src="img/news.png" alt=""> Últimas notícias</a>
+                <a href="#"><img src="img/friends.png" alt=""> Amigos</a>
+                <a href="#"><img src="img/group.png" alt=""> Grupo</a>
+                <a href="#"><img src="img/marketplace.png" alt="">Mercado livre</a>
+                <a href="#"><img src="img/watch.png" alt=""> Assista</a>
+                <a href="#">Ver mais</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Seus links rápidos</p>
+                <a href="#"><img src="img/shortcut-1.png" alt="">Desenolvedor Web</a>
+                <a href="#"><img src="img/shortcut-2.png" alt="">Curso de Web Design</a>
+                <a href="#"><img src="img/shortcut-3.png" alt="">Desenolvedor Full Satck</a>
+                <a href="#"><img src="img/shortcut-4.png" alt="">Website Expert</a>
+            </div>
+        </div>
+
+        <!-- Principal conteudo -->
+        <div class="main-content">
+            <div class="story-galery">
+                <div class="story story5">
+                    <img src="img/upload.png" alt="">
+                    <p>Historial de postagem</p>
+                </div>
+                <div class="story story1">
+                    <img src="img/cur.jpg" alt="">
+                    <p>Ali Azimo</p>
+                </div>
+                <div class="story story2">
+                    <img src="img/teac.jpg" alt="">
+                    <p>Cansope</p>
+                </div>
+                <div class="story story3">
+                    <img src="img/capa.jpg" alt="">
+                    <p>Eugenia Clemente</p>
+                </div>
+                <div class="story story4">
+                    <img src="img/Dava.png" alt="">
+                    <p>Historial de postagem</p>
+                </div>
+            </div>
+
+            <div class="write-post-contanier">
+                <div class="user-profile">
+                    <img src="img/ALi.jpg" alt="">
+                    <div class="detail">
+                        <p>Ali Azimo</p>
+                        <small>Public <i class="fas fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="O que pensas sobre Ali Azimo?"></textarea>
+
+                    <div class="add-post-link">
+                        <a href="#">
+                            <img src="img/live-video.png" alt="">
+                            Live Video
+                        </a>
+                        <a href="#">
+                            <img src="img/photo.png" alt="">
+                            Fotos/Video
+                        </a>
+                        <a href="#">
+                            <img src="img/feeling.png" alt="">
+                            Alegria/divertimento
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/capa.jpg" alt="">
+                        <div class="detail">
+                            <p>Ali Azimo</p>
+                            <span>Outubro 11 2023, 19:44 pm</span>
+                        </div>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+                <p class="post-text">Muito obrigado por teres cedido este tempo para poder visualizar este projecto. <a href="#">Universa Code <a href="#">universalcoede@gmail.com</a></a></p>
+
+                <img src="img/teac.jpg" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div class="like-content">
+                            <img src="img/like-blue.png" alt="">120
+                        </div>
+                        <div class="like-content">
+                            <img src="img/comments.png" alt="">45
+                        </div>
+                        <div class="like-content">
+                            <img src="img/share.png" alt="">20
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/ALi.jpg" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/capa.jpg" alt="">
+                        <div class="detail">
+                            <p>Ali Azimo</p>
+                            <span>Outubro 11 2023, 19:44 pm</span>
+                        </div>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+                <p class="post-text">Muito obrigado por teres cedido este tempo para poder visualizar este projecto. <a href="#">Universa Code <a href="#">universalcoede@gmail.com</a></a></p>
+
+                <img src="img/cur.jpg" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div class="like-content">
+                            <img src="img/like-blue.png" alt="">120
+                        </div>
+                        <div class="like-content">
+                            <img src="img/comments.png" alt="">45
+                        </div>
+                        <div class="like-content">
+                            <img src="img/share.png" alt="">20
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/ALi.jpg" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/capa.jpg" alt="">
+                        <div class="detail">
+                            <p>Ali Azimo</p>
+                            <span>Outubro 11 2023, 19:44 pm</span>
+                        </div>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+                <p class="post-text">Muito obrigado por teres cedido este tempo para poder visualizar este projecto. <a href="#">Universa Code <a href="#">universalcoede@gmail.com</a></a></p>
+
+                <img src="img/bom.jpg" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div class="like-content">
+                            <img src="img/like-blue.png" alt="">120
+                        </div>
+                        <div class="like-content">
+                            <img src="img/comments.png" alt="">45
+                        </div>
+                        <div class="like-content">
+                            <img src="img/share.png" alt="">20
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/ALi.jpg" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="load-more">Load More</button>
+        </div>
+
+        <!-- Lado direiro -->
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Eventos</h4>
+                <a href="#">Assista todos eventos</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>09</h3>
+                    <span>Outubro</span>
+                </div>
+                <div class="right-event">
+                    <h4>Web Design</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>  Cuamba Cidade</p>
+                    <a href="#">Mais info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>10</h3>
+                    <span>Outubro</span>
+                </div>
+                <div class="right-event">
+                    <h4>Midias sociais</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Cuamba Aeroporto</p>
+                    <a href="#">Mais info</a>
+                </div>
+            </div>
+
+            <div class="sidebar-title">
+                <h4>Publicidade</h4>
+                <a href="#">Fechar</a>
+            </div>
+            <img src="img/advertisement.png" alt="" class="sidebar-ads">
+
+            <div class="sidebar-title">
+                <h4>Bate-Papo-chat</h4>
+                <a href="#">Esconder o chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/ALi.jpg" alt="">
+                </div>
+                <p>Ali Azimo</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/cur.jpg" alt="">
+                </div>
+                <p>Eugenia Clemente Azimo</p>
+
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/tea.jpg" alt="">
+                </div>
+                <p>Rostan Cansope</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copysr;Copyright 2023 Ali Azimo, Desenolvedor Web</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
